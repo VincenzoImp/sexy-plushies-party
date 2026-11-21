@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cut">
+  <title>Sexy Plushies Party · Bari</title>
+  <meta name="description" content="The after party. Tonight in Bari. Meeting point revealed at 19:00. Hosted by Tux & Frollino.">
+  <meta property="og:title" content="Sexy Plushies Party · Bari">
+  <meta property="og:description" content="Tonight. Meeting point revealed at 19:00. Hosted by Tux & Frollino.">
+  <meta property="og:image" content="/assets/plushies.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#F8F6F1">
+  <link rel="icon" href="/assets/cookie.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="spawn-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <span>Team Sexy Plushies · After party</span>
+    <span class="dim">Bari · Sat 21.11 · <span id="clock">--:--:--</span></span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <p class="eyebrow">Tonight · Bari</p>
+        <h1 class="title"><span>Sexy</span><span>Plushies</span><span class="party">Party</span></h1>
+        <p class="lede">Tux and Frollino are taking over Bari.<br>You're invited.</p>
+        <div class="pills">
+          <a class="pill sky" href="https://www.instagram.com/tux.plushy.penguin/" target="_blank" rel="noopener">@tux.plushy.penguin</a>
+          <a class="pill peach" href="https://www.instagram.com/frollinoplushy/" target="_blank" rel="noopener">@frollinoplushy</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <figure class="photo card" id="photo">
+          <img src="/assets/plushies.jpg" alt="Frollino the crocheted cookie with googly eyes next to Tux the big grey penguin plushie" width="1304" height="967">
+          <figcaption>
+            <span class="tag tag-frollino">Frollino</span>
+            <span class="tag tag-tux">Tux</span>
+          </figcaption>
+        </figure>
+        <p class="hint">tap anywhere</p>
+      </div>
+    </section>
+
+    <section class="block" id="countdown-block">
+      <p class="eyebrow">The countdown</p>
+      <h2 class="h2" id="countdown-title">Meeting point drops at 19:00</h2>
+      <div class="countdown" id="countdown" role="timer" aria-live="off">
+        <div class="cell card sky"><b id="cd-h">--</b><span>hours</span></div>
+        <div class="cell card lilac"><b id="cd-m">--</b><span>minutes</span></div>
+        <div class="cell card mint"><b id="cd-s">--</b><span>seconds</span></div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="vault" id="vault">
+        <p class="vault-label">Meeting point · <span id="vault-state">locked until 19:00</span></p>
+        <div class="vault-body" id="vault-body">
+          <p class="redacted" aria-label="hidden until 19:00">██████ ███ ████</p>
+          <p class="vault-sub">Unlocks here at 19:00. Not a second earlier.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <p class="eyebrow">While you wait</p>
+      <h2 class="h2">Follow the hosts</h2>
+      <div class="follow">
+        <a class="ig card sky" href="https://www.instagram.com/tux.plushy.penguin/" target="_blank" rel="noopener">
+          <img src="/assets/penguin.svg" alt="" width="72" height="72">
+          <span class="ig-text"><b>Tux</b><span>@tux.plushy.penguin</span></span>
+          <span class="btn btn-ink">Follow</span>
+        </a>
+        <a class="ig card peach" href="https://www.instagram.com/frollinoplushy/" target="_blank" rel="noopener">
+          <img src="/assets/cookie.svg" alt="" width="72" height="72">
+          <span class="ig-text"><b>Frollino</b><span>@frollinoplushy</span></span>
+          <span class="btn btn-ink">Follow</span>
+        </a>
+      </div>
+      <p class="fineprint">Tonight they go wild around Bari. You'll want the stories.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span><b>Sexy Plushies Party</b></span>
+    <span class="dim"><span id="spawn-count">0</span> plushies spawned on this screen</span>
+  </footer>
+
+  <div class="cookie-banner card" id="cookie-banner" role="dialog" aria-label="Cookie notice">
+    <img src="/assets/cookie.svg" alt="" width="44" height="44">
+    <p><b>This site uses cookies.</b> One of them is Frollino.</p>
+    <div class="cookie-actions">
+      <button class="btn" data-cookies="1">Accept cookies</button>
+      <button class="btn btn-ink" data-cookies="2">Accept MORE cookies</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

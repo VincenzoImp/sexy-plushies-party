@@ -135,7 +135,10 @@
     $('vault-body').innerHTML =
       `<p class="place">${esc(data.place)}</p>` +
       (data.note ? `<p class="vault-sub">${esc(data.note)}</p>` : '') +
-      `<a class="btn btn-ink" href="${esc(data.maps)}" target="_blank" rel="noopener">Open in Maps</a>`;
+      `<div class="vault-actions">` +
+      `<a class="btn btn-ink" href="${esc(data.maps)}" target="_blank" rel="noopener">Open in Maps</a>` +
+      `<a class="btn" href="https://ig.me/m/tux.plushy.penguin" target="_blank" rel="noopener">Lost? DM Tux</a>` +
+      `</div>`;
     if (celebrate && !reduced) {
       rain(140, 4000);
       const r = $('vault').getBoundingClientRect();

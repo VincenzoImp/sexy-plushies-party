@@ -136,7 +136,7 @@ main { position: relative; z-index: 1; }
 }
 .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
 .btn-ink { background: var(--ink); color: var(--paper); }
-.vault .btn { margin-top: 22px; }
+.vault-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
 
 /* ---------- instagram follow cards ---------- */
 .follow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(12px, 2vw, 24px); }
@@ -153,6 +153,7 @@ main { position: relative; z-index: 1; }
 .ig .btn { flex: 0 0 auto; }
 a.pill { color: var(--ink); text-decoration: none; box-shadow: 0 3px 0 var(--ink); }
 .fineprint { margin: 22px 0 0; font-size: 15px; font-weight: 700; text-align: center; }
+.fineprint a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .foot { margin-top: clamp(56px, 10vh, 110px); border-top: 2px solid var(--ink); position: relative; z-index: 1; }
 
 /* ---------- cookie banner ---------- */
